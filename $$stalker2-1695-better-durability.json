@@ -1,0 +1,35 @@
+{
+    "version": "2.0",
+    "description": "[BetterDurabilityArmor99999_999_P.pak] Fully Compatible with Patch 1.9 - Do you hate repairing your gear all the time? This mod will help with that! Increases Armor durability and decreases weapon durability damage rates. Multiple files to choose from to tweak the game to your liking.",
+    "author": "https://www.nexusmods.com/stalker2heartofchornobyl/mods/1695?tab=files&file_id=13076&nmm=1",
+    "actions": [
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/DifficultyPrototypes.cfg",
+            "path": "Easy",
+            "values": {
+                "Armor_Durability": "99999.0"
+            }
+        },
+        {
+            "type": "Add",
+            "file": "Stalker2/Content/GameLite/GameData/DifficultyPrototypes.cfg",
+            "path": "Medium::Armor_Durability",
+            "value": "99999.0"
+        },
+        {
+            "type": "Modify",
+            "file": "Stalker2/Content/GameLite/GameData/DifficultyPrototypes.cfg",
+            "path": "Hard",
+            "values": {
+                "Armor_Durability": "99999.0"
+            }
+        },
+        {
+            "type": "Add",
+            "file": "Stalker2/Content/GameLite/GameData/DifficultyPrototypes.cfg",
+            "path": "Stalker::Armor_Durability",
+            "value": "99999.0"
+        }
+    ]
+}
